@@ -2,8 +2,47 @@
     font-family: Overpass;
 }
 body {
-    background-color: #6b2c2b;
+    background-color: #744746;
 }
 h1, h2, h3 {
     font-family: Chivo;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link {
+    width: 33%;
+    height: 40px;
+    text-align: center;
+    background-color: #715841;
+}
+a {
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    text-emphasis: none;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+a:hover {
+    font-size: 35px;
+    opacity: 50%;
+}
+#advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#guy-biking {
+    width: 30%;
+    height: auto;
+    margin: 0px 0px 15px 15px;
+}
+footer {
+    background-color: #380621;
+    width: 100%;
+    margin-left: 0%;
 }
